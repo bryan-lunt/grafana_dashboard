@@ -1,0 +1,3 @@
+[submodule "docker-graphite-statsd"]
+	path = docker-graphite-statsd
+	url = https://github.com/sitespeedio/docker-graphite-statsd.git

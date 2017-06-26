@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+        grafana:
+                image: grafana/grafana:latest
+                ports:
+                        - "15601:8080"
+        db:
+                #image: gr4y/docker-graphite-api:latest
+                #image: brutasse/graphite-api:latest
+                #image: sitespeedio/graphite
+                build: my-docker-graphite
+                ports:
+                        - "8080:80"
+                        - "2003:2003"
+
