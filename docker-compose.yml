@@ -7,7 +7,7 @@ services:
                 volumes:
                         - /mnt/foobar
                 ports:
-                        - "15601:8080"
+                        - "3000:3000"
         db:
                 #image: gr4y/docker-graphite-api:latest
                 #image: brutasse/graphite-api:latest
