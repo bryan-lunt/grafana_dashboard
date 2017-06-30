@@ -51,3 +51,8 @@ If we decide later that we need custom plugins or extensions to Grafana, they sh
 	- 3D? (Three.js)
 - Navball?
 - etc?
+
+##### Links
+
+Leaflet.KSP ( for a map view)
+
